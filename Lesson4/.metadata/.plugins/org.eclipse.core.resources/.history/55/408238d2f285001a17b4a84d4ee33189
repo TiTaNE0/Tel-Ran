@@ -1,0 +1,27 @@
+/*
+ * arrayTools.c
+ *
+ *  Created on: 24 Apr 2020
+ *      Author: titan
+ */
+
+
+#include<stdio.h>
+
+void printArr(int arr[], int size);
+
+
+int main () {
+
+
+	return 0;
+}
+
+
+void printArr(int arr[], int size) {
+	int i;
+	printf("{ ");
+	for (i = 0; i < size; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf(" }\n");

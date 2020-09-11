@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.outer1{
+    height: 200px;
+    background-color: blue;
+    /*padding: 25px;*/
+    /*border-top: 1px solid black;*/
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+
+.outer2{
+    height: 200px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.inner1{
+    height: 100px;
+    background-color: red;
+    /*margin: 25px;*/
+    width: 80%;
+    margin: 0 auto;
+}

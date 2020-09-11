@@ -1,0 +1,25 @@
+package telran.array.controller;
+
+import telran.array.utils.ArrayTools;
+
+public class ArrayAppl {
+
+	public static void main(String[] args) {
+		int[] arr1 = { 2, 3, 5, 7, 11 };
+		arr1[4] = 100;
+		System.out.println(arr1.length);
+		int[] arr = new int[10];
+		System.out.println(arr[3]);
+		ArrayTools.printArray(arr1);
+		ArrayTools.printArray(arr);
+		ArrayTools.fillArray(arr, 10, 99);
+		ArrayTools.printArray(arr);
+		int sum = ArrayTools.sumArray(arr);
+		System.out.println(sum);
+		double avr = ArrayTools.avg(arr);
+		System.out.println(avr);
+		ArrayTools.bubbleSort(arr);
+		ArrayTools.printArray(arr);
+		System.out.println(ArrayTools.binarySearch(arr, 12));;
+	}
+}

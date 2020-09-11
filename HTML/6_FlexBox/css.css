@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+.flex-container{
+    width: 500px;
+    height: 250px;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.item{
+    width: 150px;
+    height: 100px;
+    background-color: darkred;
+}
+
+.item.center{
+    height: 130px;
+}
+
+.one {
+    background-color: gray;
+}
+
+.two {
+    background-color: whitesmoke;
+}
+
+.three {
+    background-color: darkred;
+}
+
+.four {
+    background-color: lightblue;
+}
+
+.five {
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+

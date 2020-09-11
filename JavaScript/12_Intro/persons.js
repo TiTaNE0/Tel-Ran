@@ -21,6 +21,7 @@ for (let i = 0; i < persons.length; i++) {
         size++;
     }
 }
-
-let avgAge = sum / size;
-alert(`Average age is ${Math.round(avgAge)} of ${size} persons`);
+//
+ let avgAge = sum / size;
+// alert(`Average age is ${Math.round(avgAge)} of ${size} persons`);
+console.log(persons);

@@ -1,0 +1,35 @@
+/*
+ * functionAdv.c
+ *
+ *  Created on: Mar 10, 2020
+ *      Author: User
+ */
+
+#include<stdio.h>
+float getPi();
+float getLength(float radius);
+
+int main() {
+
+	float pi = getPi();
+	printf("Pi = %f\n", pi);
+
+	float length = getLength(10);
+	printf("length = %f\n", length);
+
+	length = getLength(20);
+	printf("lenght = %f\n", length);
+
+	printf("lenght = %2f\n", getLength(30));
+
+	return 0;
+}
+
+float getLength(float radius) {
+	float res = 2 * 3.1415926 * radius;
+	return res;
+}
+
+float getPi() {
+	return 3.1415926;
+}

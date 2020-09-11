@@ -1,0 +1,11 @@
+package telran.computer.controller;
+
+import telran.computer.model.Computer;
+
+public class ComputerAppl {
+
+		public static void main(String[] args) {
+			Computer comp1 = new Computer(6, 320, "i5", "Dell");
+			
+		}
+}

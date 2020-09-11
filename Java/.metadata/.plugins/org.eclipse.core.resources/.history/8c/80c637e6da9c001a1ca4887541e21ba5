@@ -1,0 +1,17 @@
+package telran.computer.controller;
+
+import telran.supermarket.model.Bread;
+
+public class SupermarketArrrayAppl {
+
+	public static void main(String[] args) {
+		Bread[] bread = new Bread[5];
+		bread[0] = new Bread("Khala", 150, "wheat", true);
+		bread[1] = 
+		bread[2] = 
+		bread[3] = 
+		bread[4] = 
+				
+	}
+
+}

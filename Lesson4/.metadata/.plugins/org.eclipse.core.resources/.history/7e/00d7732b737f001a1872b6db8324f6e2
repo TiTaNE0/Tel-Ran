@@ -1,0 +1,88 @@
+/*
+ * hw_numsplit.c
+ *
+ *  Created on: 15 Apr 2020
+ *      Author: titan
+ */
+#include <stdio.h>
+
+int invertNum(int num);
+int countDig(int num);
+int power(int a, int b);
+void contNum(int num, int num1);
+void luckyTicMsk(int num);
+
+
+int main() {
+	int inv = 123456789;
+	printf("%d <|> %d\n", inv, invertNum(inv));
+
+	contNum(123456789, 11);
+
+	luckyTicMsk(123124);
+}
+
+
+void luckyTicMsk(int num) {
+	int part2 = num % power(10, countDig(num)/2);
+	int part1 = num / power(10, countDig(num)/2);
+	int res2 = 0;
+	int res1 = 0;
+	while (part2) {
+		res2 = res2 + part2 % 10;
+		part2 /= 10;
+	}
+	for (; part1; part1 /= 10) {
+		res1 = res1 + part1 % 10;
+	}
+
+	if (res1 == res2) {
+		printf("%d == %d Lucky ticket!", res1, res2);
+	} else {
+		printf("%d != %d Not so lucky, sorry...", res1, res2);
+	}
+}
+
+
+void contNum(int num, int num1){
+	int num_orig = num;
+	int num_orig1 = num1;
+	int numDiv = 0;
+	for (; num; num /= 10) {
+		numDiv = num % power(10, countDig(num1));
+		if (numDiv == num1) {
+			printf("Number %d contains %d\n", num_orig, num_orig1);
+			break;
+		}
+	}
+	if (numDiv != num1) {
+			printf("There is no number %d inside number %d\n", num_orig1, num_orig);
+	}
+}
+
+
+int invertNum(int num){
+	int res = 0;
+	for (; num; num /= 10) {
+		res *= 10;
+		res += num % 10;
+	}
+	return res;
+}
+
+int countDig(int num) {
+	int res = 0;
+	for (; num; num /= 10) {
+		res += 1;
+	}
+	return res;
+}
+
+int power(int a, int b) {
+	int i;
+	int pow = 1;
+	for (i = 0; i < b; i++) {
+		pow *= a;
+	}
+	return pow;
+}

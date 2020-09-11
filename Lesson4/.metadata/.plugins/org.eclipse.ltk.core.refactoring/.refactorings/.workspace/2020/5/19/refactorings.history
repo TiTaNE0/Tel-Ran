@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Lesson_16_hw/sortArray.c&apos;" deleteContents="false" description="Delete resource &apos;Lesson_16_hw/sortArray.c&apos;" element1="/Lesson_16_hw/sortArray.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1588598017325"/>
+</session>

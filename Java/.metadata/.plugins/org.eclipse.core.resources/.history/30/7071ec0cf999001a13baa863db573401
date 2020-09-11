@@ -1,0 +1,13 @@
+package telran.bank.controller;
+
+import telran.bank.model.BankAccount;
+
+public class BankArrayAppl {
+	
+	public static void main(String[] args) {
+		BankAccount[] bank = new BankAccount[4];
+		bank[0] = 
+				
+	}
+
+}

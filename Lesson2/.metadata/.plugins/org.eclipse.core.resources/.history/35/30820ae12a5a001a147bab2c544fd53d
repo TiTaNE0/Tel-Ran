@@ -1,0 +1,11 @@
+/*
+ * DoNotGoGentle.c
+ *
+ *  Created on: Feb 28, 2020
+ *      Author: User
+ */
+int main()
+{
+	printf(fopen("DoNotGoGentle.txt", "r"));
+	return 0;
+}

@@ -1,0 +1,1 @@
+arrayTools.o: ../arrayTools.c

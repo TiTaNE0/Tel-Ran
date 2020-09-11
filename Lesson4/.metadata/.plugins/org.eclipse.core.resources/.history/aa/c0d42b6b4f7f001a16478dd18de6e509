@@ -1,0 +1,27 @@
+/*
+ * hw_numsplit.c
+ *
+ *  Created on: 15 Apr 2020
+ *      Author: titan
+ */
+#include <stdio.h>
+
+int invertNum(int num);
+
+
+int main() {
+	int inv = invertNum(876543210);
+	printf("%d", inv);
+}
+
+
+int invertNum(int num){
+	int res = 0;
+	do {
+		res = res *= 10 + num % 10;
+		num /= 10;
+	}
+	while(num);
+
+	return res;
+}

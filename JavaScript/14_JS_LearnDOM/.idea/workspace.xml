@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b1244c1-2f03-4a93-89d8-f589404ce7fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../HTML/8_Bootstrap_1/.idea/8_Bootstrap_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/.idea/12_Intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/12_hw_Persons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/HW_12JS_Ogryzkov.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/hw_Persons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/personsHW2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/.idea/JS_Objects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/14_LearnDOM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_HW_JSToDO/.idea/15_HW_JSToDO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_HW_JSToDO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_HW_JSToDO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_HW_JSToDO/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_HW_JSToDO/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_HW_JSToDO/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/16_JS_JQuery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/CSS/todo_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/Scripts/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/Scripts/todo_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/to-do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/17_JS_Advanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/workspace-TITAN-DELL17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/HW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/HW_Eduard'/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/HW_Eduard'/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/arraysAdv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/hw_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/.idea/18_JS_Advanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/HW17Adv.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/HW17Adv/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/HW17Adv/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/HW17Adv/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/arrAdv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18_JS_Advanced/inheritance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/VarArgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/VarArgs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/methodsOfPrimitives.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/methodsOfPrimitives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/persons.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fatJtkcfFAVQWF9AWd7EImvbcT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b1244c1-2f03-4a93-89d8-f589404ce7fd" name="Default Changelist" comment="" />
+      <created>1596467963003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596467963003</updated>
+      <workItem from="1596467964090" duration="8478000" />
+      <workItem from="1596660194175" duration="181000" />
+      <workItem from="1596694312705" duration="742000" />
+      <workItem from="1596718991953" duration="639000" />
+      <workItem from="1596725445671" duration="3103000" />
+      <workItem from="1597481399202" duration="1820000" />
+      <workItem from="1597828071930" duration="178000" />
+      <workItem from="1597841015564" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="166" width="446" height="393" key="FileChooserDialogImpl" timestamp="1596728620188">
+      <screen x="65" y="24" width="1215" height="696" />
+    </state>
+    <state x="498" y="166" width="446" height="393" key="FileChooserDialogImpl/65.24.1215.696/65.24.1215.696@65.24.1215.696" timestamp="1596728620188" />
+    <state x="726" y="240" width="530" height="596" key="FileChooserDialogImpl/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1596719027480" />
+  </component>
+</project>

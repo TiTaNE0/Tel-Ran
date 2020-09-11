@@ -1,0 +1,7 @@
+package telran.computer.model;
+
+public class Smartphone extends Laptop {
+	private long imei;
+	
+	
+}

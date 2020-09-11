@@ -1,0 +1,11 @@
+package telran.bank.controller;
+
+import telran.bank.model.BankAccount;
+
+public class BankAppls {
+	
+	public static void main(String[] args) {
+		BankAccount peter = new BankAccount(1000, "Peter", "Leumi", 932, 100)
+	}
+
+}

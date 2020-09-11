@@ -1,0 +1,51 @@
+package telran.array.utils;
+
+public class ArrayTools {
+
+	
+	public static void fillArray(int[] arr, int min, int max) {
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = (int) (min + Math.random() * (max + 1 - min));
+			}
+	}
+	
+	public static int sumArray(int[] arr) {
+		int res = 0;
+		for (int i = 0; i < arr.length; i++) {
+			res += arr[i];
+		}
+		return res;
+	}
+	
+	public static double avg(int[] arr) {
+			return 1. * sumArray(arr) / arr.length;
+	}
+	
+	public static void printArray(int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + "\t");
+		}
+		System.out.println("\n===========");
+	}
+
+	private void bubbleSort(int arr[]) {
+		while (bubble(arr) != 0);
+	}
+	
+
+	private int bubble(int[] arr) {
+		int flag = 0;
+		int i;
+		for (i = 0; i < arr.length; i++) {
+			if (arr[i] > arr[i+1]) {
+				arr[i] = arr[i] + arr[i + 1];
+				arr[i + 1] = arr[i] - arr[i + 1];
+				arr[i] = arr[i] - arr[i + 1];
+				flag = 1;
+			}
+		}
+		return flag;
+	}
+		
+}
+	

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Tel-Ran" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e8a8bdc-f16e-4216-b337-0ec6c0a149e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../HTML/8_Bootstrap_1/.idea/8_Bootstrap_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/.idea/12_Intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/12_hw_Persons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/HW_12JS_Ogryzkov.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/hw_Persons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/personsHW2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/.idea/JS_Objects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14_JS_LearnDOM/.idea/14_LearnDOM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_HW_JSToDO/.idea/15_HW_JSToDO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/16_JS_JQuery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/CSS/todo_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/Scripts/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/Scripts/todo_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/to-do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/17_JS_Advanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arraysAdv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/VarArgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/VarArgs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/methodsOfPrimitives.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/methodsOfPrimitives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/persons.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1g3CFtIxqyhl7j7iRV4fxzbPAok" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+  </component>
+  <component name="RunManager" selected="Node.js.HW.js">
+    <configuration name="HW.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HW.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="arraysAdv.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="arraysAdv.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="project" />
+      <envs />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.HW.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e8a8bdc-f16e-4216-b337-0ec6c0a149e5" name="Default Changelist" comment="" />
+      <created>1597333788421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597333788421</updated>
+      <workItem from="1597333789737" duration="7048000" />
+      <workItem from="1597480649674" duration="11784000" />
+      <workItem from="1597494461915" duration="2996000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597334278856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597334278856" />
+    <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1597334110025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597334110025" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597334272317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597334272317" />
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom" timestamp="1597494430870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597494430870" />
+    <state width="1899" height="176" key="GridCell.Tab.0.bottom/0.22.1920.978@0.22.1920.978" timestamp="1597487359898" />
+    <state width="1899" height="226" key="GridCell.Tab.0.center" timestamp="1597494430870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597494430870" />
+    <state width="1899" height="176" key="GridCell.Tab.0.center/0.22.1920.978@0.22.1920.978" timestamp="1597487359897" />
+    <state width="1899" height="226" key="GridCell.Tab.0.left" timestamp="1597494430870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597494430870" />
+    <state width="1899" height="176" key="GridCell.Tab.0.left/0.22.1920.978@0.22.1920.978" timestamp="1597487359896" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right" timestamp="1597494430870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597494430870" />
+    <state width="1899" height="176" key="GridCell.Tab.0.right/0.22.1920.978@0.22.1920.978" timestamp="1597487359897" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597495303208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597495303208" />
+  </component>
+</project>

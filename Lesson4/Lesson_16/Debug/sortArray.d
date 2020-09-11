@@ -1,0 +1,1 @@
+sortArray.o: ../sortArray.c

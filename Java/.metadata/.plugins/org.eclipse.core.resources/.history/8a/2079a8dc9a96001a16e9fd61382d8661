@@ -1,0 +1,27 @@
+package telran.books.controller;
+
+public class Books {
+	private int isbn;
+	private String title;
+	private String author;
+	private int year;
+	private boolean hardcover;
+
+	public Book(int isbn1, String title1, String author1,
+			int year1, boolean hardcover1) {
+		setIsbn(isbn1);
+		
+	}
+	
+	public void setIsbn(int isbn1) {
+	if (isbn1 >= 100_000_000 && isbn1 <= 999_999_999)	 {
+		isbn = isbn1; {
+			
+		}
+	}
+	
+	
+	public int getIsbn() {
+		return isbn;
+	}
+}

@@ -1,0 +1,21 @@
+/*
+ * loopFor.c
+ *
+ *  Created on: Apr 7, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+
+void haharin();
+
+int main() {
+	haharin();
+	return 0;
+}
+void haharin() {
+	int counter;
+	for (counter = 10; counter > 0; counter--) {
+		printf("%d\n", counter);
+	}
+	printf("Go!\n");
+}

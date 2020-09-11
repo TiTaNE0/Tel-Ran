@@ -1,0 +1,64 @@
+/*
+ * hw_numsplit.c
+ *
+ *  Created on: 15 Apr 2020
+ *      Author: titan
+ */
+#include <stdio.h>
+
+int invertNum(int num);
+int countDig(int num);
+int power(int a, int b);
+void contNum(int num, int num1);
+
+int main() {
+
+	printf("%d\n", invertNum(123456789));
+
+	printf("%d\n", countDig(5));
+
+	printf("%d\n", power(10, 1));
+
+	contNum(263705, 5);
+
+}
+void contNum(int num, int num1){
+	int numDiv = 0;
+	for (; num; num /= 10) {
+		numDiv  = num % power(10, countDig(num1));
+		if (numDiv == num1) {
+			printf("Number %d contains %d\n", num, num1);
+			break;
+		} else {
+			printf("There is no digits %d in number %d\n", num1, num);
+		}
+	}
+}
+
+
+int invertNum(int num){
+	int res = 0;
+	for (; num; num /= 10) {
+		res *= 10;
+		res += num % 10;
+	}
+	return res;
+}
+
+int countDig(int num) {
+	int count;
+	int res;
+	for (count = 1; num; num /= 10) {
+		res += 1;
+	}
+	return res;
+}
+
+int power(int a, int b) {
+	int i;
+	int pow = 1;
+	for (i = 0; i < b; i++) {
+		pow *= a;
+	}
+	return pow;
+}

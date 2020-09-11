@@ -1,0 +1,10 @@
+package telran.employee.controller;
+
+public class EmployeeAppl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

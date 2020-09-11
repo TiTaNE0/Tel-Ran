@@ -1,0 +1,16 @@
+package telran.employee.controller;
+
+public class EmployeeAppl {
+
+	public static void main(String[] args) {
+		Employee peter;
+		peter = new Employee();
+		peter.id = 123456789;
+		peter.name = "Peter";
+		peter.salary = 15000;
+		peter.taxAllowance = 2.25;
+		peter.display();
+		Employee john = new Employee;
+		}
+
+}

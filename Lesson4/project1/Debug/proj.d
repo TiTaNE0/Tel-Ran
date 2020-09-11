@@ -1,0 +1,1 @@
+proj.o: ../proj.c

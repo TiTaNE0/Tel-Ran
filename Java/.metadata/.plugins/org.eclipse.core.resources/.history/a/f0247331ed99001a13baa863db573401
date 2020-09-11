@@ -1,0 +1,20 @@
+package telran.bank.controller;
+
+import telran.bank.model.BankAccount;
+
+public class BankAppls {
+	
+	public static void main(String[] args) {
+		BankAccount peter = new BankAccount(1000, "Peter", "Leumi", 932, 100);
+		peter.display();
+		peter.debit(300);
+		System.out.println(peter.getAmount());
+		System.out.println(peter.credit(500));
+		System.out.println(peter.credit());
+		
+		BankAccount maria = new BankAccount(2000, "Maria", "Leumi", 961);
+		maria.display();
+		
+	}
+
+}

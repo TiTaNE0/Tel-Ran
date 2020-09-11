@@ -1,0 +1,19 @@
+/*
+ * functionAdv.c
+ *
+ *  Created on: Mar 10, 2020
+ *      Author: User
+ */
+
+#include<stdio.h>
+float getPi();
+
+int main(){
+
+	getPi();
+	return 0;
+}
+
+float getPi(){
+	return 3.1415926;
+}

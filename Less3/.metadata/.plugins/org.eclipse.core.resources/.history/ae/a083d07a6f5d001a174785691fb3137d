@@ -1,0 +1,11 @@
+/*
+ * func.c
+ *
+ *  Created on: Mar 3, 2020
+ *      Author: User
+ */
+
+int main(){
+	printf("Hello");
+	return 0;
+}

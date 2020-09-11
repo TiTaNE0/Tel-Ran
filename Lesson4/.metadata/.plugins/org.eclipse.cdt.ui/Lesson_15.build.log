@@ -1,0 +1,14 @@
+16:28:39 **** Incremental Build of configuration Release for project Lesson_15 ****
+make all 
+Building file: ../arrayTools.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayTools.d" -MT"arrayTools.o" -o "arrayTools.o" "../arrayTools.c"
+../arrayTools.c:53:20: error: a parameter list without types is only allowed in a function definition
+        void reverseArray(arr, size);
+                          ^
+1 error generated.
+make: *** [arrayTools.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+16:28:40 Build Failed. 2 errors, 0 warnings. (took 175ms)
+

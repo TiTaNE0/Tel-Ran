@@ -1,0 +1,18 @@
+/*
+ * choice.c
+ *
+ *  Created on: Mar 24, 2020
+ *      Author: User
+ */
+
+#include<stdio.h>
+
+void checkArmy(int age);
+
+int main(){
+
+
+	return 0;
+}
+
+

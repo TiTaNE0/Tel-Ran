@@ -1,0 +1,14 @@
+/*
+ * example.c
+ *
+ *  Created on: Mar 10, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+
+int main() {
+	float test = 0. / 0;
+	printf("%f\n", test);
+
+	return 0;
+}

@@ -1,0 +1,17 @@
+/*
+ * var.c
+ *
+ *  Created on: Mar 6, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+int main(){
+	int a;
+	a = 10;
+
+	printf("variable a = %d", a);
+
+	char b = 127;
+
+	return 0;
+}

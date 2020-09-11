@@ -1,0 +1,22 @@
+/*
+ * nestedLoops.c
+ *
+ *  Created on: 17 Apr 2020
+ *      Author: titan
+ */
+#include<stdio.h>
+void printStars(int row, int col);
+
+int main () {
+
+	printStars(3, 5);
+
+	return 0;
+}
+
+void star(int row, int col) {
+	int i;
+	for (i = 1; i <= col; i++) {
+		printf("*\n");
+	}
+}

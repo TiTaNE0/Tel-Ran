@@ -1,0 +1,22 @@
+/*
+ * var.c
+ *
+ *  Created on: Mar 6, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+int main() {
+	int a = a + 10;
+
+	printf("variable a = %d\n", a);
+
+	char b = a + 20;
+	printf("char b = %d\n", b);
+
+	float g = 9.8;
+	printf("float g = %f\n", g);
+
+	float z = a - b
+
+	return 0;
+}

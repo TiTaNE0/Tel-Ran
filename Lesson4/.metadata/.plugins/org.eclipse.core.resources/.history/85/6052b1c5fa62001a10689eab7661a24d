@@ -1,0 +1,53 @@
+/*
+ * functionAdv.c
+ *
+ *  Created on: Mar 10, 2020
+ *      Author: User
+ */
+
+#include<stdio.h>
+float getPi();
+float getLength(float radius);
+float getG();
+float power(float mass);
+
+int main() {
+
+	float pi = getPi();
+	printf("Pi = %f\n", pi);
+
+	float length = getLength(10);
+	printf("length = %.2f\n", length);
+
+	length = getLength(20);
+	printf("lenght = %.2f\n", length);
+
+	printf("lenght = %.2f\n", getLength(30));
+
+	printf("Gravity = %.2f", power(100));
+
+	return 0;
+}
+
+float getHg(time){
+	float res = getG() * t * t / 2;
+	return res;
+}
+
+float power(float mass){
+	float res = mass * getG();
+	return res;
+}
+
+float getG(){
+	return 9.8;
+}
+
+float getLength(float radius) {
+	float res = 2 * getPi() * radius;
+	return res;
+}
+
+float getPi() {
+	return 3.1415926;
+}

@@ -1,0 +1,26 @@
+/*
+ * DoNotGoGentle.c
+ *
+ *  Created on: Feb 28, 2020
+ *      Author: User
+ */
+#include <stdio.h>
+#include <stdlib.h> // For exit() function
+int main() {
+	int i;
+    char output[1000];
+    FILE *poem;
+    if ((poem = fopen("DoNotGoGentle.txt", "r")) == NULL) {
+        printf("Error opening file! Please put DoNotGoGentle.txt into directory.");
+        // Program exits if file pointer returns NULL.
+        exit(1);
+    }
+    for (i = 1; fgets(output, sizeof(output), poem) != NULL; i++)
+    {
+    	printf(i, output);
+    }
+
+    fclose(poem);
+    return 0;
+}
+

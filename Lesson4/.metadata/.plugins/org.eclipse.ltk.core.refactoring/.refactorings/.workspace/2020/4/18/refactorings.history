@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;arrayTaxIL&apos; to &apos;Lesson_15_HW&apos;" description="Rename resource &apos;arrayTaxIL&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/arrayTaxIL" name="Lesson_15_HW" stamp="1588239033997" updateReferences="true"/>
+</session>

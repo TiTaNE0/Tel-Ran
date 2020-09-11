@@ -1,0 +1,36 @@
+/*
+ * loops_hw.c
+ *
+ *  Created on: Apr 1, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+float negPow(float x, int y);
+
+int main(){
+
+	float power = negPow(4, 4);
+	printf("%.0f", power);
+
+	return 0;
+}
+
+float negPow(float x, int y){
+	float res = 1;
+	int i = 1;
+	int pow = 1;
+	if (y < 0) {
+		pow = -y;
+	} else {
+		pow = y;
+	}
+
+	while (i <= pow) {
+			res = res * x;
+		if (y < 0) {
+			res = 1 / res;
+		}
+		i++;
+	}
+	return res;
+}

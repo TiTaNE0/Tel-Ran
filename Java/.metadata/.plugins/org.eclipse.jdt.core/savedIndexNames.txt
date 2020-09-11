@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Users/titan/OneDrive/Programming/Tel-Ran/Java/.metadata/.plugins/org.eclipse.jdt.core
+1547915772.index
+725901674.index
+3038835913.index
+3257386079.index
+3309961286.index

@@ -1,0 +1,9 @@
+
+**** Build of configuration Debug for project Lesson_3 ****
+
+**** Internal Builder is used for build               ****
+gcc -oLesson_3.exe func.o
+c:/wascana/mingw/bin/../lib/gcc/mingw32/4.4.1-dw2/../../../../mingw32/bin/ld.exe: cannot open output file Lesson_3.exe: Permission denied
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 166  ms.  

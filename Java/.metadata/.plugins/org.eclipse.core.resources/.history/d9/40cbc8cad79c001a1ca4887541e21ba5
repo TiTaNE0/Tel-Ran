@@ -1,0 +1,32 @@
+package telran.supermarket.model;
+
+public class Bread {
+	
+	protected int netto;
+	protected String flavour;
+	protected Boolean sugar;
+	
+	
+	public Bread() {
+		
+	}
+	
+	
+	public Bread(int netto, String flavour, boolean sugar) {
+		this.netto = netto;
+		this.flavour = flavour;
+		this.sugar = sugar;
+		
+	}
+	
+	
+	public int getNetto() {
+		return netto;
+	}
+	
+	public void setNetto() {
+		this.netto = netto;
+	}
+	
+
+}

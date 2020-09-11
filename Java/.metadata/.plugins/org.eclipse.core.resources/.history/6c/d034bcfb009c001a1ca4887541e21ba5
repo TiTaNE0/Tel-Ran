@@ -1,0 +1,17 @@
+package telran.computer.model;
+
+public class Laptop extends Computer {
+
+		private double weight;
+		private int battery;
+		
+		public Laptop(int ram, int hdd, String cpu, String brand, double weight, int battery) {
+			super(ram, hdd, cpu, brand);
+			this.weight = weight;
+			this.battery = battery;
+		}
+
+			
+		
+		
+}

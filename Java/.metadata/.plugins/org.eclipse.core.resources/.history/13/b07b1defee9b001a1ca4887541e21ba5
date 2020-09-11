@@ -1,0 +1,10 @@
+package telran.books.controller;
+
+public class BooksArrayAppl {
+
+	public static void main(String[] args) {
+		Books Library[] = new Books[4];
+		
+	}
+
+}

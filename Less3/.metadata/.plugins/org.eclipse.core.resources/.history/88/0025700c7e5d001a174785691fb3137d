@@ -1,0 +1,43 @@
+/*
+ * stack.c
+ *
+ *  Created on: Mar 3, 2020
+ *      Author: User
+ */
+
+#include<stdio.h>
+
+void f1();
+void f2();
+void f3();
+void f4();
+
+int main() {
+	printf("Main Start\n");
+	f1();
+	printf("Main Finish\n");
+	return 0;
+}
+
+	void f1() {
+		printf("F1 Start\n");
+		f2();
+		printf("F1 Finish\n");
+	}
+
+	void f2() {
+		printf("F2 Start\n");
+		f3();
+		printf("F2 Finish\n");
+	}
+
+	void f3() {
+		printf("F3 Start\n");
+		f4();
+		printf("F3 Finish\n");
+	}
+
+	void f4() {
+		printf("F4 Start\n")
+		printf("F4 Finish\n")
+	}

@@ -1,0 +1,35 @@
+/*
+ * luckyTic_hw.c
+ *
+ *  Created on: Apr 4, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+void luckyTicket(int num);
+
+int main(){
+
+	luckyTicket(59654); // 15 + 15
+
+	return 0;
+}
+
+void luckyTicket(int num){
+//	int number = num;
+	int res1 = 0;
+	int res2 = 0;
+	while (num) {
+		int digit = num % 10;
+		res1 += digit;
+		num /= 10;
+
+		digit = num % 10;
+		res2 += digit;
+		num /= 10;
+	}
+	if (res1 == res2) {
+		printf("BINGO! %d = %d\n", res1, res2);
+	} else {
+		printf("Not your day! %d doesn't match %d.\n", res1, res2);
+	}
+}

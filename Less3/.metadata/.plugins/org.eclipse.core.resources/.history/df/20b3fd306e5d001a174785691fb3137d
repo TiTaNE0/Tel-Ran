@@ -1,0 +1,10 @@
+/*
+ * func.c
+ *
+ *  Created on: Mar 3, 2020
+ *      Author: User
+ */
+
+int main(){
+	return 0;
+}

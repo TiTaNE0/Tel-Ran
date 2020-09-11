@@ -1,0 +1,19 @@
+!SESSION 2020-04-12 01:36:15.184 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IL
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/titan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/titan/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 1 1 2020-04-12 01:39:21.796
+!MESSAGE Workbench migration started
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-12 01:39:22.435
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 1 1 2020-04-12 01:39:23.081
+!MESSAGE Workbench migration finished
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-12 01:40:18.740
+!MESSAGE Indexed 'HW_Lesson12_1' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

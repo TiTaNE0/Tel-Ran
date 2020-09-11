@@ -1,0 +1,19 @@
+/*
+ * circus.c
+ *
+ *  Created on: Mar 3, 2020
+ *      Author: User
+ */
+
+#include<stdio.h>
+
+int main(){
+	lightOn();
+	entertainer();
+	lightOff;
+	return 0;
+}
+
+void lightOn(){
+	printf("light on\n")
+}

@@ -1,0 +1,10 @@
+package telran.computer.controller;
+
+public class SupermarketAppl {
+
+	public static void main(String[] args) {
+		bread1.dsplay();
+
+	}
+
+}

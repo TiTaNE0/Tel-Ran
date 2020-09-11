@@ -1,0 +1,31 @@
+/*
+ * star_print.c
+ *
+ *  Created on: 18 Apr 2020
+ *      Author: titan
+ */
+#include<stdio.h>
+void starPrinterX(int q);
+
+int main() {
+
+	starPrinterX(10);
+	return 0;
+}
+
+void starPrinterX(int q) {
+	int i, j;
+	for (i = 1; i <= q; i++) {
+		for (j = 1; j <= q; j++) {
+			if (i == j) {
+				printf("* ");
+//				printf("&");
+			}
+		}
+		printf("\n");
+	}
+}
+
+
+
+

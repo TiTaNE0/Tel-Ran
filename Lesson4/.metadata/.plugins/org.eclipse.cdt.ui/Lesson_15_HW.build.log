@@ -1,0 +1,24 @@
+16:28:40 **** Build of configuration Debug for project Lesson_15_HW ****
+make all 
+Building file: ../arrayTaxIL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrayTaxIL.d" -MT"arrayTaxIL.o" -o "arrayTaxIL.o" "../arrayTaxIL.c"
+../arrayTaxIL.c:13:21: warning: format specifies type 'int' but the argument has type 'float' [-Wformat]
+        printf("tax = %d", tax);
+                      ~~   ^~~
+                      %f
+../arrayTaxIL.c:23:7: error: use of undeclared identifier 'sal'
+        for (sal = salary; sal <= arrTax[6]; sal+tax)
+             ^
+../arrayTaxIL.c:23:21: error: use of undeclared identifier 'sal'
+        for (sal = salary; sal <= arrTax[6]; sal+tax)
+                           ^
+../arrayTaxIL.c:23:39: error: use of undeclared identifier 'sal'
+        for (sal = salary; sal <= arrTax[6]; sal+tax)
+                                             ^
+1 warning and 3 errors generated.
+make: *** [arrayTaxIL.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+16:28:40 Build Failed. 4 errors, 1 warnings. (took 142ms)
+

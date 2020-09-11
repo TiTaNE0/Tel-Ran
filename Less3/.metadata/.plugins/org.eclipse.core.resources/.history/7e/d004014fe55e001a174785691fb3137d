@@ -1,0 +1,42 @@
+/*
+ * func_c.c
+ *
+ *  Created on: Mar 5, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+
+void func1();
+void func2();
+void func3();
+void func4();
+void func5();
+void func6();
+
+int main(){
+	printf("Call Function 6");
+	func6();
+	func1();
+	func2();
+	return 0;
+}
+
+void func6(){
+}
+void func1(){
+	func4();
+}
+
+void func4(){
+	func5();
+}
+
+void func5(){
+	func6();
+}
+
+void func2(){
+
+}
+
+

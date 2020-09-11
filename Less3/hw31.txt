@@ -1,0 +1,7 @@
+HW Lesson 3, Evgeny Ogryzkov
+
+1. Function "main" call 3 other functions.
+2. Function 3 never called.
+3. Functions 3 and 6 doesn't call any other functions.
+4. Stack with maximum ammount of functions seems to be like: main->Function1->Function4->Function5->Function6
+

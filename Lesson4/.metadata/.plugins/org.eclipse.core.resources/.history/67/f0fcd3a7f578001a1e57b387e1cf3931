@@ -1,0 +1,32 @@
+/*
+ * loopFor.c
+ *
+ *  Created on: Apr 7, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+
+void haharin();
+float powXY(float x, int y);
+
+int main() {
+	haharin();
+	powXY(2, 3);
+	return 0;
+}
+void haharin() {
+	int counter;
+	for (counter = 10; counter > 0; counter--) {
+		printf("%d\n", counter);
+	}
+	printf("Go!\n");
+}
+
+float powXY(float x, int y) {
+	float res = 1;
+	int finger;
+	for (finger = 1; finger <= y; finger++) {
+		res *= x;
+	}
+	return res;
+}

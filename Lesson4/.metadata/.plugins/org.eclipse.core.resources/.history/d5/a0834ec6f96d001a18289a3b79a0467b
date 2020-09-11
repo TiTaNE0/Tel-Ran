@@ -1,0 +1,24 @@
+/*
+ * choice.c
+ *
+ *  Created on: Mar 24, 2020
+ *      Author: User
+ */
+
+#include<stdio.h>
+
+void checkArmy(int age);
+
+int main(){
+	int age = 9;
+	checkArmy(age);
+	return 0;
+}
+
+void checkArmy(int age){
+	if(age < 18 || age >= 45){
+		printf("You are lucky\n");
+	}else{
+		printf("Goto army\n");
+	}
+}

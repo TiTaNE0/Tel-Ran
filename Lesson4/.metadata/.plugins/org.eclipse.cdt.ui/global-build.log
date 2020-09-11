@@ -1,0 +1,27 @@
+21:00:04 **** Incremental Build of configuration Release for project Lesson_16_hw ****
+make all 
+Building file: ../sortArray_hw.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sortArray_hw.d" -MT"sortArray_hw.o" -o "sortArray_hw.o" "../sortArray_hw.c"
+Finished building: ../sortArray_hw.c
+ 
+Building target: Lesson_16_hw
+Invoking: MacOS X C Linker
+gcc  -o "Lesson_16_hw"  ./sortArray_hw.o   
+Finished building target: Lesson_16_hw
+ 
+21:00:06 **** Incremental Build of configuration Debug for project Lesson_16_hw ****
+make all 
+Building file: ../sortArray_hw.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sortArray_hw.d" -MT"sortArray_hw.o" -o "sortArray_hw.o" "../sortArray_hw.c"
+Finished building: ../sortArray_hw.c
+ 
+Building target: Lesson_16_hw
+Invoking: MacOS X C Linker
+gcc  -o "Lesson_16_hw"  ./sortArray_hw.o   
+Finished building target: Lesson_16_hw
+ 
+21:00:07 **** Incremental Build of configuration Debug for project Lesson_16_hw ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,29 @@
+/*
+ * DoNotGoGentle.c
+ *
+ *  Created on: Feb 28, 2020
+ *      Author: User
+ /
+int main(){
+	printf("Do not go gentle into that good night,\n");
+	printf("Old age should burn and rave at close of day;\n");
+	printf("Rage, rage against the dying of the light.\n\n");
+	printf("Though wise men at their end know dark is right,\n");
+	printf("Because their words had forked no lightning they\n");
+	printf("Do not go gentle into that good night.\n\n");
+	printf("Good men, the last wave by, crying how bright\n");
+	printf("Their frail deeds might have danced in a green bay,\n");
+	printf("Rage, rage against the dying of the light.\n\n");
+	printf("Wild men who caught and sang the sun in flight,\n");
+	printf("And learn, too late, they grieved it on its way,\n");
+	printf("Do not go gentle into that good night.\n\n");
+	printf("Grave men, near death, who see with blinding sight\n");
+	printf("Blind eyes could blaze like meteors and be gay,\n");
+	printf("Rage, rage against the dying of the light.\n\n");
+	printf("And you, my father, there on that sad height,\n");
+	printf("Curse, bless, me now with your fierce tears, I pray.\n");
+	printf("Do not go gentle into that good night.\n");
+	printf("Rage, rage against the dying of the light.\n");
+	return 0;
+}
+

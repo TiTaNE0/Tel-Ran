@@ -1,0 +1,16 @@
+/*
+ * func.c
+ *
+ *  Created on: Mar 3, 2020
+ *      Author: User
+ */
+
+int main(){
+	printf("Let me introduce myself\n");
+	printf("Juliko Bandito\n");
+	printf("Let me introduce myself\n")
+	printf("De La Vorro Gangsteritto\n");
+	printf("Let me introduce myself\n");
+	printf("Silvio Berlusconni\n");
+	return 0;
+}

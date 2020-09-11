@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lesson4_HW/null_div&apos; to &apos;null_div.c&apos;" description="Rename resource &apos;null_div&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="null_div" name="null_div.c" stamp="1583611242579" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+package telran.books.controller;
+
+public class booksAppl {
+
+	public static void main(String[] args) {
+		Books book1 = new Books(1250149444, "A Bad Day for Sunshine",
+				"Darynda Jones", 2020, true);
+		Books book2 = new Books(1524763136, "Becoming",
+				"Michelle Obama", 2018, true);
+		
+		book1.display();
+		book2.display();
+
+	}
+
+}

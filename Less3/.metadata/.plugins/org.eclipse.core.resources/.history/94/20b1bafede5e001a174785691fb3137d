@@ -1,0 +1,44 @@
+/*
+ * func_call.c
+ *
+ *  Created on: Mar 4, 2020
+ *      Author: User
+ */
+
+#include <stdio.h>
+
+void activateHydrogen();
+void engineStart();
+void boostersIgnite();
+void boostersRelease();
+void liftOff();
+
+int main(){
+	printf("T-10 seconds counting to blast off:\n");
+		activateHydrogen();
+	return 0;
+}
+
+void activateHydrogen(){
+	printf("Activate main engine hydrogen burnoff system...\n");
+	engineStart();
+}
+
+void engineStart(){
+	printf("Main engine start...\n");
+	boostersIgnite();
+}
+
+void boostersIgnite(){
+	printf("Solid Rocket Boosters ignite...\n");
+	boostersRelease();
+}
+
+void boostersRelease(){
+	printf("Explosive bolts release the boosters...\n");
+	liftOff();
+	printf("-= 1 =-");
+}
+
+
+

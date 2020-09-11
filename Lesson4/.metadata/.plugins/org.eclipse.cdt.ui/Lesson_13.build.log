@@ -1,0 +1,20 @@
+10:55:33 **** Incremental Build of configuration Release for project Lesson_13 ****
+make all 
+Building file: ../nestedLoops.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nestedLoops.d" -MT"nestedLoops.o" -o "nestedLoops.o" "../nestedLoops.c"
+Finished building: ../nestedLoops.c
+ 
+Building target: Lesson_13
+Invoking: MacOS X C Linker
+gcc  -o "Lesson_13"  ./nestedLoops.o   
+Undefined symbols for architecture x86_64:
+  "_printStars", referenced from:
+      _main in nestedLoops.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lesson_13] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:55:34 Build Failed. 2 errors, 0 warnings. (took 417ms)
+

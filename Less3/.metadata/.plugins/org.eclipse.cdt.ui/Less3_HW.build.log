@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Less3_HW ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -ofunc_c.o ..\func_c.c
+gcc -oLess3_HW.exe func_call.o func_c.o
+Build complete for project Less3_HW
+Time consumed: 521  ms.  

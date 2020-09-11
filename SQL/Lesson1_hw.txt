@@ -1,0 +1,18 @@
+CREATE DATABASE schedule
+USE schedule;
+CREATE TABLE IF NOT EXISTS weekdays (
+	number INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name VARCHAR(10) NOT NULL DEFAULT '',
+	PRIMARY KEY (number)
+	);
+SHOW TABLES //optional just to be sure ))
+INSERT INTO weekdays VALUES
+	(1, 'Sunday'),
+	(2, 'Monday'),
+	(3, 'Tuesday'),
+	(4, 'Wednesday'),
+	(5, 'Thursday'),
+	(6, 'Friday'),
+	(7, 'Saturday');
+SELECT * FROM weekdays;
+SELECT * FROM weekdays WHERE CHAR_LENGTH(name) > 7;

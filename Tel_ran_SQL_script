@@ -1,0 +1,146 @@
+SELECT productID AS ID, productCode AS Code,
+name AS Description, price AS `Unit Price`
+FROM products ORDER BY Description;
+
+
+SELECT productCode from products;
+SELECT DISTINCT productCode from products;
+
+SELECT COUNT(productCode) FROM products;
+SELECT COUNT(*) FROM products;
+SELECT MAX(price) FROM products;
+SELECT MAX(price) FROM products;
+SELECT MAX(price) AS `Max Price`, MIN(price) AS `Min price`, SUM(quantity) AS `Total units` FROM products;
+
+SELECT SUM(quantity*price) AS `Balance` FROM products;
+
+INSERT INTO products VALUES(NULL, 'PEN', 'Caran Dache', 1, 500);
+
+
+SELECT SUM(price * quantity)/SUM(quantity) AS `Average price` from products;
+
+SELECT name, MAX(price) FROM products;
+
+SELECT 
+
+SELECT name, MAX(price) FROM products; // incorrect result
+
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+FROM products GROUP BY productCode;
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+FROM products GROUP BY productCode;
+ORDER BY `Quantity`;
+
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+CAST(SUM(price * quantity)/SUM(quantity) AS DECIMAL(7,2)) AS `Average price`
+FROM products GROUP BY productCode;
+
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+CAST(SUM(price * quantity)/SUM(quantity) AS DECIMAL(7,2)) AS `Average price`
+FROM products 
+WHERE productCode LIKE 'P%'
+GROUP BY productCode;
+
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+CAST(SUM(price * quantity)/SUM(quantity) AS DECIMAL(7,2)) AS `Average price`
+FROM products 
+WHERE price < 100
+GROUP BY productCode;
+
+
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+CAST(SUM(price * quantity)/SUM(quantity) AS DECIMAL(7,2)) AS `Average price`
+FROM products 
+WHERE price < 100
+GROUP BY productCode
+HAVING `Average price` > 1;
+
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+CAST(SUM(price * quantity)/SUM(quantity) AS DECIMAL(7,2)) AS `Average price`
+FROM products 
+WHERE price < 100
+GROUP BY productCode
+HAVING `Average price` > 1
+ORDER BY `Average price`;
+
+
+SELECT productCode AS Code,
+MIN(price) AS `Min price`,
+MAX(price) AS `Max price`,
+CAST(SUM(price * quantity)/SUM(quantity) AS DECIMAL(7,2)) AS `Average price`
+FROM products 
+WHERE price < 100
+GROUP BY productCode
+HAVING `Average price` > 1 AND price < 100
+ORDER BY `Average price`;
+
+
+SHOW CREATE TABLE products \G
+
+
+ALTER TABLE products CHARSET=utf8;
+
+
+
+
+
+
+_________________________________ 12/06/20
+
+
+
+SELECT * FROM products, suppliers;
+SELECT * FROM products AS p, suppliers AS s WHERE p.supplierID = s.supplierID;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

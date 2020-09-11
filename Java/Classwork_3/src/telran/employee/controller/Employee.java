@@ -1,0 +1,83 @@
+package telran.employee.controller;
+
+public class Employee {
+	private int id; //поле класса
+	private String name;
+	private double salary;
+	private double taxAllowance;
+
+	public Employee(int id1, String name1, double salary1, double taxAllowance1) {
+		setId(id1);
+		setName(name1);
+		setSalary(salary1);
+		setTaxAllowance(taxAllowance1);
+		
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id1) {
+		if (id1 >= 100_000_000 & id1 <= 999_999_999) {
+			id = id1;
+		} else {
+			System.out.println("Wrong number");
+		}
+	}
+	
+	public double getTaxAllowance() {
+		return taxAllowance;
+	}
+	
+	public void setTaxAllowance(double taxAllowance1) {
+		taxAllowance = taxAllowance1;
+	}
+	
+	
+	
+	public void setSalary(double salary1) {
+		if (salary1 >= 6400) {
+			salary = salary1;
+		} else {
+			System.out.println("Wrong salary");
+		}
+				
+	}
+	
+	public double getSalary() {
+		return salary;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name1) {
+		name = name1;
+	}
+	
+	public void display() {
+		System.out.println("ID = " + id+ ", name : " + name +
+				", salary = " + salary);
+	}
+		
+	public double taxIsrael() {
+		double tax = taxIsrael1();
+		return tax >= 0 ? tax : 0;
+	}
+	
+	private double taxIsrael1() {
+		double tax = -taxAllowance * 219;
+		double[] levels = {0, 6310, 9050, 14530, 20200, 42030, 54130};
+		double[] rates = {0.1, 0.14, 0.2, 0.31, 0.35, 0.47, 0.5};
+		for (int i = 0; i < levels.length - 1; i++) {
+			if (salary > levels[i] && salary <= levels[i+1]) {
+				return tax + (salary - levels[i]) * rates[i];
+			} else {
+				tax = tax + (levels[i + 1] - levels[i]) * rates[i];
+			}
+		}
+		return tax + (salary - levels[6]) * rates[6];
+	}
+}

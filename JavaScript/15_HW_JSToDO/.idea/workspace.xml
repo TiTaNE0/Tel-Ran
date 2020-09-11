@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da48b146-34f0-4263-b643-e1a49613005e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../HTML/8_Bootstrap_1/.idea/8_Bootstrap_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/.idea/12_Intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/12_hw_Persons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/HW_12JS_Ogryzkov.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/hw_Persons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Intro/personsHW2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_JS_Introduction/JS_Objects/.idea/JS_Objects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14_JS_LearnDOM/.idea/14_LearnDOM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/15_HW_JSToDO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/16_JS_JQuery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/CSS/todo_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/Scripts/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/Scripts/todo_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_JS_JQuery/to-do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/17_JS_Advanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/HW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/arraysAdv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/hw_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../17_JS_Advanced/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/VarArgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/VarArgs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/methodsOfPrimitives.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/methodsOfPrimitives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12_Intro/persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../12_Intro/persons.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fjc9aUzO7gXlbo81XWal26ufS1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da48b146-34f0-4263-b643-e1a49613005e" name="Default Changelist" comment="" />
+      <created>1596734791517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596734791517</updated>
+      <workItem from="1596734792606" duration="639000" />
+      <workItem from="1597567818026" duration="15000" />
+      <workItem from="1597568737875" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

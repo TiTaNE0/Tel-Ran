@@ -1,0 +1,58 @@
+/*
+ * loopFor.c
+ *
+ *  Created on: Apr 7, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+
+void haharin();
+float powXY(float x, int y);
+void luckyTicket(int num);
+
+int main() {
+	haharin();
+	float pow = powXY(2, 3);
+	printf("%f", pow);
+	luckyTicket(5599671);
+	return 0;
+}
+
+void luckyTicket(int num) {
+	int res1 = 0;
+		int res2 = 0;
+		int pos = 1;
+		for (pos = 1; num; num /= 10) {
+			int digit = num % 10;
+			if (pos % 2 == 0) {
+				res1 += digit;
+			} else {
+				res2 += digit;
+			}
+			num /= 10;
+			pos++;
+		}
+		if (res1 == res2) {
+			printf("Lucky\n");
+		} else {
+			printf("Unlucky\n");
+		}
+}
+
+
+void haharin() {
+	int counter;
+	for (counter = 10; counter > 0; counter--) {
+		printf("%d\n", counter);
+	}
+	printf("Go!\n");
+}
+
+float powXY(float x, int y) {
+	float res = 1;
+	int i;
+	for (i = 1; i <= y; i++) {
+		res *= x;
+	}
+	return res;
+}

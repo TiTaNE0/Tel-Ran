@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lesson_06_HW/func_min_max&apos; to &apos;func_min_max.c&apos;" description="Rename resource &apos;func_min_max&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="func_min_max" name="func_min_max.c" stamp="1584628567753" updateReferences="true"/>
+</session>

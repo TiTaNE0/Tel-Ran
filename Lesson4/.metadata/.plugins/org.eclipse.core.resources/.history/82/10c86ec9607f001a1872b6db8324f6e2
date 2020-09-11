@@ -1,0 +1,67 @@
+/*
+ * hw_numsplit.c
+ *
+ *  Created on: 15 Apr 2020
+ *      Author: titan
+ */
+#include <stdio.h>
+
+int invertNum(int num);
+int countDig(int num);
+int power(int a, int b);
+void contNum(int num, int num1);
+
+int main() {
+
+	printf("%d\n", invertNum(123456789));
+
+	printf("%d\n", countDig(37));
+
+	printf("%d\n", power(2, 5));
+
+	contNum(253705, 37);
+
+}
+void contNum(int num, int num1){
+	int count;
+	int count1 = countDig(num1);
+
+	for (count = 1; num; num /= 10) {
+		int numDiv = 0;
+		numDiv += num % 10;
+		for (count1 = 1; num1; num1 /= 10) {
+			int numDiv1 = 0;
+			numDiv1 += num1 % 10;
+		}
+
+	}
+}
+
+
+int invertNum(int num){
+	int res = 0;
+	int count;
+	for (count = 1; num; num /= 10) {
+		res *= 10;
+		res += num % 10;
+	}
+	return res;
+}
+
+int countDig(int num) {
+	int count;
+	int res;
+	for (count = 1; num; num /= 10) {
+		res += 1;
+	}
+	return res;
+}
+
+int power(int a, int b) {
+	int i;
+	int pow = 1;
+	for (i = 0; i < b; i++) {
+		pow *= a;
+	}
+	return pow;
+}

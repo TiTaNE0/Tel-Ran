@@ -1,0 +1,25 @@
+/*
+ * hw_numsplit.c
+ *
+ *  Created on: 15 Apr 2020
+ *      Author: titan
+ */
+#include <stdio.h>
+
+int luckyTic();
+
+
+int main() {
+	int x = luckyTic(123456);
+	printf(x);
+}
+
+
+int luckyTic(int num){
+	int res = 0;
+	while(num) {
+		res = res + num % 10;
+		num /= 10;
+	}
+	return res;
+}

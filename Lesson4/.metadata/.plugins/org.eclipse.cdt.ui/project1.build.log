@@ -1,0 +1,20 @@
+12:58:26 **** Build of configuration Debug for project project1 ****
+make all 
+Building file: ../proj.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"proj.d" -MT"proj.o" -o "proj.o" "../proj.c"
+Finished building: ../proj.c
+ 
+Building target: project1
+Invoking: Cross GCC Linker
+gcc  -o "project1"  ./proj.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [project1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+12:58:26 Build Failed. 2 errors, 0 warnings. (took 188ms)
+

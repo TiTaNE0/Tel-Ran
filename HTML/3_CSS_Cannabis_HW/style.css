@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: azure;
+}
+div {
+    margin: auto;
+}
+
+h1, h2, h3 {
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+
+.header {
+    height: auto;
+    font-family: 'Libre Baskerville', serif;
+    background-color: forestgreen;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.main {
+    margin: 15px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.footer {
+    font-family: 'Libre Baskerville', serif;
+    margin: 20px;
+    text-align: justify;
+
+}
+
+
+img {
+    float: right;
+    padding: 20px;
+}
+
+p {
+    margin: 10px;
+    font-size: 20px;
+}
+ul {
+    padding: 0px;
+    list-style-type: none;
+    background: #c6ffc9;
+}
+
+a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkseagreen;
+}
+
+a:hover{
+    color: springgreen;
+}
+
+a:active{
+    color: greenyellow;
+}

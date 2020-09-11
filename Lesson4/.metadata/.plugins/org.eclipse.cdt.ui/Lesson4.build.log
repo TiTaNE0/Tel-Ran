@@ -1,0 +1,10 @@
+
+**** Build of configuration Debug for project Lesson4 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -ovar.o ..\var.c
+..\var.c: In function 'main':
+..\var.c:9: warning: 'a' is used uninitialized in this function
+gcc -oLesson4.exe var.o
+Build complete for project Lesson4
+Time consumed: 342  ms.  

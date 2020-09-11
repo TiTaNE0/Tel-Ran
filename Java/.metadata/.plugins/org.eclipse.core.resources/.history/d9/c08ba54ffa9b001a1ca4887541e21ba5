@@ -1,0 +1,21 @@
+package telran.computer.model;
+
+public class Computer {
+
+		private int ram;
+		private int hdd;
+		private String cpu;
+		private String brand;
+		
+		public Computer(int ram, int hdd, String cpu, String brand) {
+			this.ram = ram;
+			this.hdd = hdd;
+			this.cpu = cpu;
+			this.brand = brand;
+		}
+		
+		
+
+	}
+
+}

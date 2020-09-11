@@ -1,0 +1,6 @@
+16:28:38 **** Incremental Build of configuration Release for project Lesson_12_HW ****
+make all 
+make: Nothing to be done for `all'.
+
+16:28:38 Build Finished. 0 errors, 0 warnings. (took 68ms)
+

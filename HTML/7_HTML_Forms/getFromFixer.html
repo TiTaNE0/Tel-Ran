@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixer.io</title>
+</head>
+<body>
+
+<!--http://data.fixer.io/api/latest?access_key=3a4bde751c85095fc94f683340194a93&format=1-->
+<!--    3a4bde751c85095fc94f683340194a93-->
+
+<form name="fixer" action="http://data.fixer.io/api/latest">
+    <label>Access key:
+        <input type="text" name="access_key" value="3a4bde751c85095fc94f683340194a93">
+    </label>
+    <label>EUR to :
+        <select id="cur" name="symbols">
+            <option value="USD">USD</option>
+            <option value="ILS">ILS</option>
+            <option value="RUB">RUB</option>
+            <option value="GBP">GBP</option>
+        </select>
+    <input type="submit" value="SHOW">
+    </label>
+
+</form>
+</body>
+</html>

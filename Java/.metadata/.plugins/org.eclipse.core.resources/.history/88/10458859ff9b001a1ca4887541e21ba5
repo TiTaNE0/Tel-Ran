@@ -1,0 +1,8 @@
+package telran.computer.model;
+
+public class Laptop {
+
+		private double weight;
+		private int battery;
+		
+}

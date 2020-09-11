@@ -1,0 +1,12 @@
+package telran.computer.model;
+
+public class Smartphone extends Laptop {
+	private long imei;
+
+	public Smartphone(int ram, int hdd, String cpu, String brand, double weight, int battery, long imei) {
+		super(ram, hdd, cpu, brand, weight, battery);
+		this.imei = imei;
+	}
+	
+	
+}

@@ -1,0 +1,31 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+header h1 {
+    font-weight: 700;
+}
+
+.jumbotron {
+    background-image: url("Images/jumbotron.jpg");
+    height: 35em;
+    color: white;
+    text-shadow: 0.3em 0.3em 0.3em black;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.jumbotron h2{
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.row figure img{
+    width: 100%;
+}
+footer li {
+    list-style: none;
+}

@@ -1,0 +1,16 @@
+/*
+ * arrayTools.c
+ *
+ *  Created on: 24 Apr 2020
+ *      Author: titan
+ */
+
+
+#include<stdio.h>
+
+
+int main () {
+
+
+	return 0;
+}

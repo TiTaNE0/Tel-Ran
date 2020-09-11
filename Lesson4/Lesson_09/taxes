@@ -1,0 +1,62 @@
+/*
+ * taxes.c
+ *
+ *  Created on: Mar 28, 2020
+ *      Author: User
+ */
+#include<stdio.h>
+float taxIsrael(float salary, float taxAllowance);
+float taxIsrael1(float salary, float taxAllowance);
+
+int main() {
+	float tax = taxIsrael(10000, 0);
+	printf("tax = %f\n", tax); //1204.60
+	tax = taxIsrael(6000, 5.25);
+	printf("tax = %f\n", tax); //600
+	tax = taxIsrael(8310, 5.75);
+	printf("tax = %f\n", tax); //911
+	tax = taxIsrael(17000, 2.25);
+	printf("tax = %f\n", tax);
+	return 0;
+}
+
+float taxIsrael(float salary, float taxAllowance) {
+	float tax = taxIsrael1(salary, taxAllowance);
+	return tax >= 0 ? tax : 0;
+}
+
+float taxIsrael1(float salary, float taxAllowance) {
+	float tax = -taxAllowance * 216;
+	if (salary <= 6310) {
+		return tax + salary * 0.1;
+	} else {
+		tax = tax + 6310 * 0.1;
+	}
+	if (salary > 6310 && salary <= 9050) {
+		return tax + (salary - 6310) * 0.14;
+	} else {
+		tax = tax + (9050 - 6310) * 0.14;
+	}
+	if (salary > 9050 && salary <= 14530) {
+		return tax + (salary - 9050) * 0.2;
+	} else {
+		tax = tax + (14530 - 9050) * 0.2;
+	}
+	if (salary > 14530 && salary <= 20200) {
+		return tax + (salary - 14530) * 0.31;
+	} else {
+		tax = tax + (20200 - 14530) * 0.31;
+	}
+	if (salary > 20200 && salary <= 42030) {
+		return tax + (salary - 20200) * 0.35;
+	} else {
+		tax = tax + (42030 - 20200) * 0.35;
+	}
+	if (salary > 42030 && salary <= 54130) {
+		return tax + (salary - 42030) * 0.47;
+	} else {
+		tax = tax + (54130 - 42030) * 0.47;
+	}
+	return tax + (salary - 54130) * 0.5;
+}
+

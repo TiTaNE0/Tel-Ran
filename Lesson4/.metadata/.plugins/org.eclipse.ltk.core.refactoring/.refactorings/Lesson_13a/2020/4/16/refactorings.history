@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Lesson_13a/hw_numsplit.c&apos; to &apos;nestedLoops.c&apos;" description="Rename resource &apos;hw_numsplit.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hw_numsplit.c" name="nestedLoops.c" stamp="1587110786073" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Lesson_13a/nestedLoops.c&apos; to &apos;ascii.c&apos;" description="Rename resource &apos;nestedLoops.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="nestedLoops.c" name="ascii.c" stamp="1587115236340" updateReferences="true"/>
+</session>
